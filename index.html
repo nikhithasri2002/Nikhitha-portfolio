@@ -19,6 +19,7 @@
           <li><a href="#experience">Experience</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><a href="#certifications">Certifications</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -36,6 +37,7 @@
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#certifications" onclick="toggleMenu()">Certifications</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
@@ -50,16 +52,15 @@
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Nikhitha Todeti</h1>
-        <p class="section__text__p2">Software Engineer | Data Scientist</p>
+        <p class="section__text__p2">Software Engineer | Data Scientist | Data Engineer</p>
 
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('https://drive.google.com/uc?export=view&id=1IhRwsp6XI7hSEVdheaocDtEX8sA4Zv7X','_blank')"
+            onclick="window.open('https://drive.google.com/uc?export=download&id=1tFJEbea8ThfQ97VajqIdsy307r-twls1','_blank')"
           >
             📄 Download Resume
           </button>
-          <!-- FIXED: removed './' so it doesn't open the folder index -->
           <button class="btn btn-color-1" onclick="location.href='#contact'">
             ✉️ Contact Info
           </button>
@@ -96,14 +97,17 @@
           <div class="about-containers">
             <div class="details-container">
               <h3>Experience</h3>
-              <p>Software Engineer (GRA), Full-Stack (GRA/TA), Accenture, Salesforce</p>
+              <p>
+                Software Engineer (GRA) · Software Engineer · Data Scientist Associate ·
+                Full Stack Developer (TA) · Data Analyst · Salesforce Intern
+              </p>
             </div>
 
             <div class="details-container">
               <h3>Education</h3>
               <p>
                 <strong>M.S. – Computer Science</strong>, Georgia State University
-                <span>(Jan 2024 – Present)</span><br />
+                <span>(Jan 2024 – Dec 2025)</span><br />
                 <strong>B.Tech – Computer Science & Engineering</strong>,
                 Lakireddy Balireddy College of Engineering
                 <span>(Aug 2019 – May 2023)</span>
@@ -113,17 +117,15 @@
 
           <div class="text-container">
             <p>
-              I’m <strong>Nikhitha Todeti</strong>, a Software Engineer and Data Science
-              enthusiast passionate about building scalable, secure, and data-driven
-              applications. My work spans <strong>Machine Learning, Cloud (AWS),</strong> and
-              <strong>Network Security</strong>. I love solving complex problems and creating
-              technology that makes a real impact.
+              I’m <strong>Nikhitha Todeti</strong>, a results-driven Software Engineer and
+              Data Science enthusiast focused on building scalable, data-driven systems.
+              I work across <strong>Python, Data Engineering, Machine Learning, and AWS</strong>,
+              and I enjoy converting raw data into reliable pipelines, insights, and production-ready applications.
             </p>
           </div>
         </div>
       </div>
 
-      <!-- FIXED: removed './' -->
       <img
         src="./Images/arrow.png"
         alt="Arrow icon"
@@ -144,69 +146,182 @@
             <h2 class="experience-sub-title">
               Software Engineer (Graduate Research Assistant) — Georgia State University
             </h2>
+
             <div class="article-container">
-              <article><div>
-                <h3>ETL & Data Engineering</h3>
-                <p>Developed Python-based ETL pipelines to clean and process financial data.</p>
-              </div></article>
-              <article><div>
-                <h3>Graph Algorithms & Modeling</h3>
-                <p>Implemented graph analytics (NetworkX) to identify structural dependencies.</p>
-              </div></article>
-              <article><div>
-                <h3>Data Visualization</h3>
-                <p>Built interactive dashboards using Plotly and Matplotlib.</p>
-              </div></article>
-              <article><div>
-                <h3>Collaboration</h3>
-                <p>Worked in Agile teams with Git/GitHub and modular code reviews.</p>
-              </div></article>
+              <article>
+                <div>
+                  <h3>Financial Data Engineering</h3>
+                  <p>
+                    Built Python ETL pipelines to ingest, clean, and normalize multi-year global futures datasets
+                    across 31 countries.
+                  </p>
+                </div>
+              </article>
+
+              <article>
+                <div>
+                  <h3>Graph & Network Analytics</h3>
+                  <p>
+                    Implemented MST-based market dependency analysis using NetworkX and correlation-to-distance transformations.
+                  </p>
+                </div>
+              </article>
+
+              <article>
+                <div>
+                  <h3>Centrality & Risk Metrics</h3>
+                  <p>
+                    Computed degree, betweenness, eigenvector, and Laplacian centrality to quantify systemic influence changes.
+                  </p>
+                </div>
+              </article>
+
+              <article>
+                <div>
+                  <h3>Research Automation</h3>
+                  <p>
+                    Automated dataset refresh and visualization workflows to reduce manual effort and speed up reporting.
+                  </p>
+                </div>
+              </article>
             </div>
-            <p><em>Aug 2024 – Present · Atlanta, GA, USA</em></p>
+
+            <p><em>Aug 2024 – Dec 2024 · Jan 2025 – Apr 2025 · Aug 2025 – Dec 2025 · Atlanta, GA</em></p>
+          </div>
+
+          <!-- Byte Software -->
+          <div class="details-container">
+            <h2 class="experience-sub-title">
+              Software Engineer — Byte Software Solutions
+            </h2>
+
+            <div class="article-container">
+              <article>
+                <div>
+                  <h3>Backend Development</h3>
+                  <p>Developed Python backend services for employee engagement analytics platforms.</p>
+                </div>
+              </article>
+
+              <article>
+                <div>
+                  <h3>NLP & LLM Workflows</h3>
+                  <p>Implemented NLP and LLM-assisted analysis pipelines to reduce reporting time.</p>
+                </div>
+              </article>
+
+              <article>
+                <div>
+                  <h3>Snowflake ETL</h3>
+                  <p>Designed ETL pipelines to improve data quality and query performance.</p>
+                </div>
+              </article>
+
+              <article>
+                <div>
+                  <h3>Dashboards & Agile</h3>
+                  <p>Delivered KPI dashboards and automated reporting in Agile sprint environments.</p>
+                </div>
+              </article>
+            </div>
+
+            <p><em>May 2025 – Aug 2025 · Atlanta, GA</em></p>
           </div>
 
           <!-- GRA/TA -->
           <div class="details-container">
             <h2 class="experience-sub-title">
-              Full Stack Developer (GRA & TA) — College of Business, GSU
+              Full Stack Developer (Graduate Research & Teaching Assistant) — Georgia State University
             </h2>
+
             <div class="article-container">
-              <article><div>
-                <h3>End-to-End Applications</h3>
-                <p>Developed Python apps (Pandas, NumPy, NetworkX) for fraud & market analytics.</p>
-              </div></article>
-              <article><div>
-                <h3>ETL & APIs</h3>
-                <p>Created API-driven workflows to improve data ingestion and analysis.</p>
-              </div></article>
-              <article><div>
-                <h3>Teaching Support</h3>
-                <p>Guided students in Python data wrangling & ML projects.</p>
-              </div></article>
+              <article>
+                <div>
+                  <h3>Teaching & Mentorship</h3>
+                  <p>Guided students in Python, data wrangling, and ML project development.</p>
+                </div>
+              </article>
+
+              <article>
+                <div>
+                  <h3>ETL & Analytics</h3>
+                  <p>Built Pandas-based ingestion and transformation workflows for real-world datasets.</p>
+                </div>
+              </article>
+
+              <article>
+                <div>
+                  <h3>Code Review</h3>
+                  <p>Reviewed and optimized student code for correctness, clarity, and performance.</p>
+                </div>
+              </article>
             </div>
-            <p><em>Jan 2024 – Apr 2024 · Atlanta, GA, USA</em></p>
+
+            <p><em>Jan 2024 – Apr 2024 · Atlanta, GA</em></p>
           </div>
 
           <!-- Accenture -->
           <div class="details-container">
             <h2 class="experience-sub-title">
-              Packaged App Development Associate — Accenture (DuPont Central Finance)
+              Data Scientist Associate — Accenture Solutions (DuPont – Central Finance)
             </h2>
+
             <div class="article-container">
-              <article><div>
-                <h3>SQL & Snowflake Modeling</h3>
-                <p>Built data models to enhance search and financial data retrieval.</p>
-              </div></article>
-              <article><div>
-                <h3>Automation</h3>
-                <p>Automated health checks & logs to reduce downtime and improve performance.</p>
-              </div></article>
-              <article><div>
-                <h3>Agile & Documentation</h3>
-                <p>Collaborated globally with ITIL-based delivery; created onboarding guides.</p>
-              </div></article>
+              <article>
+                <div>
+                  <h3>Enterprise Data Systems</h3>
+                  <p>Supported SAP Central Finance ingestion and reconciliation workflows for large-scale finance data.</p>
+                </div>
+              </article>
+
+              <article>
+                <div>
+                  <h3>SQL & Snowflake Modeling</h3>
+                  <p>Built and optimized data models to improve reporting performance and accuracy.</p>
+                </div>
+              </article>
+
+              <article>
+                <div>
+                  <h3>Monitoring & Reliability</h3>
+                  <p>Implemented validation and monitoring scripts to detect pipeline failures early.</p>
+                </div>
+              </article>
             </div>
+
             <p><em>Jun 2023 – Dec 2023 · Mumbai, India</em></p>
+          </div>
+
+          <!-- Altek -->
+          <div class="details-container">
+            <h2 class="experience-sub-title">
+              Data Analyst — Altek Chain Pvt. Ltd.
+            </h2>
+
+            <div class="article-container">
+              <article>
+                <div>
+                  <h3>Operational Analytics</h3>
+                  <p>Analyzed logistics and inventory datasets to support operational and business decisions.</p>
+                </div>
+              </article>
+
+              <article>
+                <div>
+                  <h3>Python Automation</h3>
+                  <p>Automated anomaly detection and data validation checks to reduce manual review.</p>
+                </div>
+              </article>
+
+              <article>
+                <div>
+                  <h3>Reporting</h3>
+                  <p>Delivered structured analytical reports for weekly leadership and stakeholder reviews.</p>
+                </div>
+              </article>
+            </div>
+
+            <p><em>Aug 2022 – Apr 2023 · Hyderabad, India</em></p>
           </div>
 
           <!-- Salesforce -->
@@ -214,31 +329,40 @@
             <h2 class="experience-sub-title">
               Salesforce Developer Intern — Salesforce (Remote)
             </h2>
+
             <div class="article-container">
-              <article><div>
-                <h3>Apex / LWC Development</h3>
-                <p>Designed and developed custom applications using Apex and LWC.</p>
-              </div></article>
-              <article><div>
-                <h3>Integration</h3>
-                <p>Connected REST APIs and automated processes using Flows & Process Builder.</p>
-              </div></article>
-              <article><div>
-                <h3>Security</h3>
-                <p>Implemented permission sets and role-based access for scalable systems.</p>
-              </div></article>
+              <article>
+                <div>
+                  <h3>Apex & Automation</h3>
+                  <p>Developed Apex, Flows, and automation to streamline CRM workflows.</p>
+                </div>
+              </article>
+
+              <article>
+                <div>
+                  <h3>REST Integrations</h3>
+                  <p>Implemented API integrations with external systems to improve data sync.</p>
+                </div>
+              </article>
+
+              <article>
+                <div>
+                  <h3>Security & Access</h3>
+                  <p>Configured validation rules and role-based access to maintain data quality and security.</p>
+                </div>
+              </article>
             </div>
+
             <p><em>May 2022 – Aug 2022 · Remote</em></p>
           </div>
         </div>
       </div>
 
-      <!-- FIXED: removed './' -->
       <img
         src="./Images/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='#projects'"
+        onclick="location.href='#skills'"
       />
     </section>
 
@@ -255,7 +379,6 @@
               <button class="skill-tab active" onclick="openSkill('tab-langs', this)">Languages</button>
               <button class="skill-tab" onclick="openSkill('tab-data', this)">Data & ML</button>
               <button class="skill-tab" onclick="openSkill('tab-cloud', this)">Cloud & DevOps</button>
-              <button class="skill-tab" onclick="openSkill('tab-security', this)">Cybersecurity</button>
               <button class="skill-tab" onclick="openSkill('tab-db', this)">Databases</button>
               <button class="skill-tab" onclick="openSkill('tab-tools', this)">Tools</button>
             </div>
@@ -263,18 +386,16 @@
             <!-- Panes -->
             <div class="skills-panes">
               <div id="tab-langs" class="skill-pane active">
-                <h2 class="experience-sub-title">Programming Languages</h2>
+                <h2 class="experience-sub-title">Languages</h2>
                 <div class="skill-badges">
                   <span class="skill-badge">Python</span>
-                  <span class="skill-badge">Java</span>
-                  <span class="skill-badge">C++</span>
                   <span class="skill-badge">SQL</span>
                   <span class="skill-badge">R</span>
-                  <span class="skill-badge">SAP</span>
-                  <span class="skill-badge">C</span>
-                  <span class="skill-badge">HTML</span>
-                  <span class="skill-badge">CSS</span>
+                  <span class="skill-badge">Java</span>
                   <span class="skill-badge">JavaScript</span>
+                  <span class="skill-badge">C++</span>
+                  <span class="skill-badge">C</span>
+                  <span class="skill-badge">Bash</span>
                 </div>
               </div>
 
@@ -284,11 +405,10 @@
                   <span class="skill-badge">Pandas</span>
                   <span class="skill-badge">NumPy</span>
                   <span class="skill-badge">Scikit-learn</span>
-                  <span class="skill-badge">Matplotlib</span>
-                  <span class="skill-badge">Seaborn</span>
                   <span class="skill-badge">TensorFlow</span>
                   <span class="skill-badge">PyTorch</span>
-                  <span class="skill-badge">Jupyter</span>
+                  <span class="skill-badge">Matplotlib</span>
+                  <span class="skill-badge">Seaborn</span>
                   <span class="skill-badge">NetworkX</span>
                 </div>
               </div>
@@ -296,31 +416,12 @@
               <div id="tab-cloud" class="skill-pane">
                 <h2 class="experience-sub-title">Cloud & DevOps</h2>
                 <div class="skill-badges">
-                  <span class="skill-badge">AWS EC2</span>
-                  <span class="skill-badge">AWS S3</span>
-                  <span class="skill-badge">AWS Redshift</span>
-                  <span class="skill-badge">AWS Glue</span>
-                  <span class="skill-badge">Lambda</span>
-                  <span class="skill-badge">CloudWatch</span>
+                  <span class="skill-badge">AWS (EC2, S3, Lambda, RDS)</span>
                   <span class="skill-badge">IAM</span>
+                  <span class="skill-badge">CloudWatch</span>
                   <span class="skill-badge">Docker</span>
-                  <span class="skill-badge">Git / GitHub</span>
                   <span class="skill-badge">CI/CD</span>
                   <span class="skill-badge">Linux</span>
-                </div>
-              </div>
-
-              <div id="tab-security" class="skill-pane">
-                <h2 class="experience-sub-title">Cybersecurity & Networking</h2>
-                <div class="skill-badges">
-                  <span class="skill-badge">Network Security</span>
-                  <span class="skill-badge">IDS/IPS</span>
-                  <span class="skill-badge">DDoS Simulation</span>
-                  <span class="skill-badge">Cryptography</span>
-                  <span class="skill-badge">Pen Testing</span>
-                  <span class="skill-badge">Firewalls</span>
-                  <span class="skill-badge">VPN</span>
-                  <span class="skill-badge">Cloud Security Architecture</span>
                 </div>
               </div>
 
@@ -329,35 +430,33 @@
                 <div class="skill-badges">
                   <span class="skill-badge">PostgreSQL</span>
                   <span class="skill-badge">MySQL</span>
-                  <span class="skill-badge">MongoDB</span>
-                  <span class="skill-badge">AWS Redshift</span>
                   <span class="skill-badge">Snowflake</span>
+                  <span class="skill-badge">MongoDB</span>
                 </div>
               </div>
 
               <div id="tab-tools" class="skill-pane">
-                <h2 class="experience-sub-title">Tools & Analytics</h2>
+                <h2 class="experience-sub-title">Frameworks & Tools</h2>
                 <div class="skill-badges">
-                  <span class="skill-badge">VS Code</span>
-                  <span class="skill-badge">Tableau</span>
+                  <span class="skill-badge">Flask</span>
+                  <span class="skill-badge">FastAPI</span>
+                  <span class="skill-badge">Streamlit</span>
+                  <span class="skill-badge">Git / GitHub</span>
                   <span class="skill-badge">Power BI</span>
-                  <span class="skill-badge">Excel (Pivots, VLOOKUP)</span>
+                  <span class="skill-badge">Tableau</span>
                   <span class="skill-badge">REST APIs</span>
-                  <span class="skill-badge">OOP</span>
-                  <span class="skill-badge">Technical Writing</span>
                 </div>
               </div>
             </div>
-          </div> <!-- /details-container -->
-        </div> <!-- /about-containers -->
-      </div> <!-- /experience-details-container -->
+          </div>
+        </div>
+      </div>
 
-      <!-- FIXED: removed './' -->
       <img
         src="./Images/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='#experience'"
+        onclick="location.href='#projects'"
       />
     </section>
 
@@ -368,60 +467,95 @@
 
       <div class="experience-details-container">
         <div class="about-containers">
+          <!-- Project 1 -->
           <div class="details-container color-container">
-            <h2 class="experience-sub-title project-title">Real-Time Cyber Threat Dashboard</h2>
+            <h2 class="experience-sub-title project-title">Global Futures Market Network Analysis Platform</h2>
+            <p>
+              Built MST-based financial network models to analyze global futures market interconnectedness before and after
+              geopolitical events using correlation and graph theory.
+            </p>
+            <p><strong>Skills Used:</strong> Python, Pandas, NumPy, NetworkX, Graph Algorithms, Data Visualization, Financial Data Analysis</p>
+
             <div class="btn-container">
-              <details>
-                <summary class="btn btn-color-2 project-btn">Overview</summary>
-                <p>
-                  Python service fetching global threat intel (abuse.ch APIs), parsing IOC feeds,
-                  and visualizing malicious IP/domain detections with geo heat maps in BI.
-                </p>
-              </details>
-              <details>
-                <summary class="btn btn-color-2 project-btn">Tech Stack</summary>
-                <p>Python, REST APIs, JSON, Power BI.</p>
-              </details>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='#contact'">Request Demo</button>
             </div>
           </div>
 
+          <!-- Project 2 -->
           <div class="details-container color-container">
-            <h2 class="experience-sub-title project-title">Resume Parser Web App</h2>
+            <h2 class="experience-sub-title project-title">Real-Time Cyber Threat Monitoring System</h2>
+            <p>
+              Developed a real-time cyber threat dashboard by ingesting threat-intelligence feeds and visualizing malicious IPs/domains
+              for security analysis.
+            </p>
+            <p><strong>Skills Used:</strong> Python, REST APIs, JSON, Power BI, Data Parsing, Cybersecurity Analytics</p>
+
             <div class="btn-container">
-              <details>
-                <summary class="btn btn-color-2 project-btn">Overview</summary>
-                <p>
-                  NLP app that extracts and scores resumes against job descriptions using keyword
-                  and entity matching; exports structured Excel outputs for recruiters.
-                </p>
-              </details>
-              <details>
-                <summary class="btn btn-color-2 project-btn">Tech Stack</summary>
-                <p>Streamlit, Python, SpaCy, NLTK, Pandas.</p>
-              </details>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='#contact'">Request Demo</button>
             </div>
           </div>
 
+          <!-- Project 3 -->
           <div class="details-container color-container">
-            <h2 class="experience-sub-title project-title">AWS S3 File Analyzer</h2>
+            <h2 class="experience-sub-title project-title">Resume Parser & Matching Web Application</h2>
+            <p>
+              Built an NLP-based web app to extract resume entities and match candidates against job descriptions using keyword/entity scoring.
+            </p>
+            <p><strong>Skills Used:</strong> Python, NLP, SpaCy, NLTK, Streamlit, Pandas, Text Processing</p>
+
             <div class="btn-container">
-              <details>
-                <summary class="btn btn-color-2 project-btn">Overview</summary>
-                <p>
-                  Serverless AWS solution scanning S3 uploads, analyzing metadata and file
-                  patterns, and triggering alerts for anomalies or policy violations.
-                </p>
-              </details>
-              <details>
-                <summary class="btn btn-color-2 project-btn">Tech Stack</summary>
-                <p>AWS Lambda, CloudWatch, SNS, S3.</p>
-              </details>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='#contact'">Request Demo</button>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title">Serverless File Analysis & Compliance Pipeline</h2>
+            <p>
+              Designed a serverless AWS pipeline to analyze uploaded files, extract metadata, and trigger alerts for anomalies or compliance violations.
+            </p>
+            <p><strong>Skills Used:</strong> AWS Lambda, AWS S3, CloudWatch, SNS, Python, Serverless Architecture</p>
+
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='#contact'">Request Demo</button>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- FIXED: removed './' -->
+      <img
+        src="./Images/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#certifications'"
+      />
+    </section>
+
+    <!-- ===== CERTIFICATIONS ===== -->
+    <section id="certifications">
+      <p class="section__text__p1">Extra</p>
+      <h1 class="title">Certifications & Highlights</h1>
+
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Certifications</h2>
+            <p>
+              Add your certifications here (AWS, Security, Data, etc.).<br />
+              <em>Tip: add certificate name + issuer + date.</em>
+            </p>
+          </div>
+
+          <div class="details-container">
+            <h2 class="experience-sub-title">What I’m Looking For</h2>
+            <p>
+              Entry-level roles in <strong>Software Engineering / Data Engineering / Data Science</strong> where I can build
+              scalable systems, automate workflows, and deliver measurable impact.
+            </p>
+          </div>
+        </div>
+      </div>
+
       <img
         src="./Images/arrow.png"
         alt="Arrow icon"
@@ -434,19 +568,27 @@
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
+
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
           <img src="./Images/email.png" alt="Email icon" class="icon contact-icon email-icon" />
           <p><a href="mailto:nikhithatodeti@gmail.com">nikhithatodeti@gmail.com</a></p>
         </div>
+
         <div class="contact-info-container">
           <img src="./Images/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
           <p><a href="https://www.linkedin.com/in/nikhitha-sri06/" target="_blank">LinkedIn</a></p>
         </div>
+
         <div class="contact-info-container">
           <img src="./Images/github.png" alt="GitHub icon" class="icon contact-icon" />
           <p><a href="https://github.com/nikhithasri2002" target="_blank">GitHub</a></p>
         </div>
+      </div>
+
+      <!-- quick navigation -->
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="location.href='#profile'">⬆️ Back to Top</button>
       </div>
     </section>
 
@@ -457,18 +599,16 @@
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2025 Nikhitha Todeti. All Rights Reserved.</p>
+      <p>Copyright &#169; 2026 Nikhitha Todeti. All Rights Reserved.</p>
     </footer>
 
     <script src="script.js"></script>
-    <script>
-      // Optional: smooth scrolling for anchor links if your CSS doesn't have it
-      // (Or add: html { scroll-behavior: smooth; } in style.css)
-    </script>
   </body>
 </html>
